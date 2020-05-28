@@ -1,0 +1,27 @@
+{
+  "name": "mytinerary",
+  "version": "1.0.0",
+  "description": "Itinerary app - final project at Ubiqum (second version)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server.js\" \"cd ../client && npm start\""
+  },
+  "author": "Carlos Presa Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.12",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {}
+}

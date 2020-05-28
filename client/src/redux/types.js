@@ -1,0 +1,30 @@
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+
+export const GET_CITIES = 'GET_CITIES';
+export const GET_CITIES_FAIL = 'GET_CITIES_FAIL';
+export const GET_CITY = 'GET_CITY';
+export const GET_CITY_FAIL = 'GET_CITY_FAIL';
+export const ADD_CITY = 'ADD_CITY';
+export const ADD_CITY_FAIL = 'ADD_CITY_FAIL';
+
+export const GET_ITINERARIES = 'GET_ITINERARIES';
+export const GET_ITINERARIES_FAIL = 'GET_ITINERARIES_FAIL';
+export const GET_ITINERARY = 'GET_ITINERARY';
+export const GET_ITINERARY_FAIL = 'GET_ITINERARY_FAIL';
+export const ADD_ITINERARY = 'ADD_ITINERARY';
+export const ADD_ITINERARY_FAIL = 'ADD_ITINERARY_FAIL';
+export const UPDATE_LIKES = 'UPDATE_LIKES';
+export const UPDATE_ERROR = 'UPDATE_ERROR';
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const REMOVE_COMMENT = 'REMOVE_COMMENT';
