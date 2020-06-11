@@ -32,7 +32,7 @@ const Login = ({ login, isAuthenticated }) => {
     }
 
     if(isAuthenticated) {
-        return <Redirect to='/cities' />;
+        return <Redirect to='/profile_and_cities' />;
     }
 
     return (

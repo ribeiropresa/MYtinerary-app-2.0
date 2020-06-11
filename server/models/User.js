@@ -14,12 +14,6 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    image: {
-        type: String
-    },
-    favouriteitineraries: {
-        type: Array
-    },
     date: {
         type: Date,
         default: Date.now

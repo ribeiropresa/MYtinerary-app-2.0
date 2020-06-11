@@ -14,7 +14,6 @@ const User = require('../models/User');
 // @route         GET /auth
 // @description   Auth route
 // @access        Public
-
 router.get('/', auth, async(req, res) => {
     try {
         const user = await User.findById(req.user.id).select('-password')
@@ -29,7 +28,6 @@ router.get('/', auth, async(req, res) => {
 // @route         Post /auth
 // @description   Authenticate user & get token route
 // @access        Public
-
 router.post('/', [
     check('email', 'Please include a valid email').isEmail(),
     check('password', 'Password is required').exists()

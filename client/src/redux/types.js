@@ -11,6 +11,12 @@ export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
 export const LOGIN_FAIL = 'LOGIN_FAIL';
 export const LOGOUT = 'LOGOUT';
 
+export const GET_PROFILE = 'GET_PROFILE';
+export const GET_PROFILES = 'GET_PROFILES';
+export const PROFILE_ERROR = 'PROFILE_ERROR';
+export const CLEAR_PROFILE = 'CLEAR_PROFILE';
+export const ACCOUNT_DELETED = 'ACCOUNT_DELETED';
+
 export const GET_CITIES = 'GET_CITIES';
 export const GET_CITIES_FAIL = 'GET_CITIES_FAIL';
 export const GET_CITY = 'GET_CITY';
@@ -28,3 +34,7 @@ export const UPDATE_LIKES = 'UPDATE_LIKES';
 export const UPDATE_ERROR = 'UPDATE_ERROR';
 export const ADD_COMMENT = 'ADD_COMMENT';
 export const REMOVE_COMMENT = 'REMOVE_COMMENT';
+
+export const GET_PHOTO = 'GET_PHOTO';
+export const DELETE_PHOTO = 'DELETE_PHOTO'
+export const PHOTO_ERROR = 'PHOTO_ERROR';

@@ -27,7 +27,6 @@ const AddCity = ({ addCity, submitted }) => {
     });
 
     if(submitted) {
-        // return <Redirect to={`/add_itinerary/${city}`} />
         return <Redirect to={`/add_itinerary/${city}`} /> 
     }
 
@@ -81,12 +80,12 @@ const AddCity = ({ addCity, submitted }) => {
                             onChange={e => onChange(e)}
                         />
                     </div>
-                        <Button
-                            className='form_submits'
-                            type='submit'
-                            variant='contained'
-                            fullWidth
-                        >ADD CITY</Button>
+                    <Button
+                        className='form_submits'
+                        type='submit'
+                        variant='contained'
+                        fullWidth
+                    >ADD CITY</Button>
                 </form>
             </div>
         </Fragment>
